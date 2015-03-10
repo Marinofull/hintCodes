@@ -47,3 +47,9 @@ PigeonHole Passo a Passo
 ![Panel](assets/img/print2Panel.png)
 ![Moderator](assets/img/print2Moderator.png)
 ![Admin](assets/img/print2Admin.png)
+
+###Informações adicionais
+
+Após o Evento você pode criar um `Survey`. E é possível apurá-lo através do menu superior `Insights`.
+
+Infelizmente a conta trial so permite até 15 usuários, após isso o evento fica indisponível.
