@@ -25,13 +25,14 @@ PigeonHole Passo a Passo
     3. Ajuste a página `Projector Panel` no projetor;
         * Se precisar dar um Blank na tela tecle `B`;
     4. Entre em `Admin Panel` __NO SEU COMPUTADOR__, está tela somente você verá.
-        * Para aceitar uma nova pergunta, precione `Allow`;
+        * Para aceitar uma nova pergunta, presione `Allow`;
         * Para Bloquear: `Block`;
         * Após permitida você pode ocultar em `Hide`, e desfazer esta ação em `Show`;
         * Você pode editar em `Edit`, use apenas para correção gramatical;
         * Quando uma pergunta estiver sendo respondida, você pode destacá-la em: `Active`;
         * Após respondida é possivel removê-la em: `Answered` (está ação pode ser desfeita no mesmo botão);
     5. Modo Moderador:
+
         Possui quase o mesmo privilégio de um Administrador. Diferenças:
         * Somente o `Admin` pode aceitar e editar uma pergunta;
         * Sua tela e disposições dos botões é diferente;
@@ -40,6 +41,7 @@ PigeonHole Passo a Passo
     1. Clique em `+Add Poll`
         * No campo `Answers` você pode adicionar tipos de respostas para a platéia marcar.
     2. Ponha o `Projector Panel` na tela;
+    Será possível ver estatísticas das respostas.
 
 ###Imagens
 
