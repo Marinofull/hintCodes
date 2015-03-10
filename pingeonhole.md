@@ -4,7 +4,7 @@ PigeonHole Passo a Passo
 
 1. Casdastre-se no [site](https://www.pigeonholelive.com/)
 
-    Você ganhará automaticamente um plano trial, e haverá algumas dicas no topo para configurar, e testar outras formas de configurar o seu evento. Após o login verá uma página semelhante a esta ![print1](assets/img/print1.png).
+    Você ganhará automaticamente um plano trial, e haverá algumas dicas no topo para configurar, e testar outras formas de configurar o seu evento. Após o login verá uma página semelhante a esta ![print1](assets/img/print1.png)
     No menu esquerdo temos alguns dados do seu evento, tais como:
 
     * código de acesso;
