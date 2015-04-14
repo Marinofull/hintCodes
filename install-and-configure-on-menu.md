@@ -90,6 +90,19 @@ GenericName=eclipse-4.4 M4
 StartupNotify=false
 Categories=Development;IDE;Java;
 
+*[Desktop Entry]
+Type=Application
+Name=Arduino IDE
+GenericName=Integrated Development Environment
+Comment=An IDE for Arduino-compatible electronics prototyping platforms
+Exec=arduino
+Icon=arduino
+Terminal=false
+Categories=Development;IDE;Electronics;
+MimeType=text/x-arduino
+Keywords=embedded electronics;electronics;avr;microcontroller;*
+
+
 user will be replaced by your user name. (must).
 
 For Exec and Icon, the path should be correct i.e you must change "user"  & "eclipse-version" according to your path. (must).
