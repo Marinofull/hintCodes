@@ -13,4 +13,5 @@ sudo cp -r usr /
 ```
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 ```
+> I prefer the second solution, but it depends how your flash is installed
 > [thanks](http://xmodulo.com/how-to-install-adobe-flash-player-on-linux.html)
