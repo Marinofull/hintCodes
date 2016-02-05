@@ -1,12 +1,15 @@
-you will see a archive named like file.tar.gz
+Installing on Linux and Configure on Menu
+-----------------------
+
+**You will see a archive named like file.tar.gz**
 
 **1. make a folder**
 
 `mkdir /home/user/.folder`
 
-**2. extract the archive into this directory with archive manager
+**2. extract the archive into this directory with archive manager**
 
-or**
+**or**
 
 ```
 tar -zxvf file_name.tar.gz -C /home/user/.folder
