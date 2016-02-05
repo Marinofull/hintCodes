@@ -2,15 +2,12 @@
 ```
 mkdir tmp_dir
 tar xvfvz install_flash_player_*.tar.gz -C ./tmp_dir
-```
-```
 cd tmp_dir
-sudo cp -r usr /
 ```
-<br><br>
-**...following you can do this:**
 
+depending of your configuration try: 
 ```
+sudo cp -r usr /
 mkdir -p ~/.mozilla/plugins
 cp libflashplayer.so ~/.mozilla/plugins
 ```
