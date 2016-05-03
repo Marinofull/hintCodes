@@ -11,10 +11,12 @@ body{
     color: #fff;
     padding-top: 200px;
     text-align:center;
+    font-size: 50px;
+    text-shadow: 2px 2px #999;
 }
 
 .footer-text{
-    color: #fff;
+    color: #eee;
     padding-top: 100px;
     text-align:center;
 }
