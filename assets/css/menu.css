@@ -1,3 +1,6 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css);
+
+/* general rules */
 *{
     padding: 0;
     margin: 0;
@@ -7,55 +10,85 @@
 body{
     font-family:  Verdana, Geneva, sans-serif;
 }
+/* general rules */
 
 .wrapper{
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 3000px; /*eh pra deixar grande mermo*/
+    height: 100%; /*eh pra deixar grande mermo*/
 }
 
 .canvas{
     width: 100%;
     height: 100%;
     position: relative;
-    transform: translateX(0);
+    /* transform: translateX(0); */
     /* transform: translate3d(0); */
     transition: .3s ease all;
 }
 
+/* estilização do menu */
 .menu{
     height: 100%;
     position: absolute;
     width: 300px;
-    transform: translateX(-300px);
+    transform: translateX(-100%);
     /* transform: translate3d(-300px, 0, 0); */
     background: #D00;
     padding: 5rem;
 }
 
-.menu ul{
-    list-style: none;
-}
+    .menu ul{
+        list-style: none;
+    }
 
-.menu .btn {
-    background: #FFF;
-    color:#BF0000;
-    border-radius: 5px;
-    margin-bottom: 30px;
-}
+    .menu .btn {
+        background: #FFF;
+        color:#BF0000;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
 
-.menu a {
-    display: inline-block;
-    padding: 10px;
-    color: #FFF;
-    text-decoration: none;
-}
+    .menu a {
+        display: inline-block;
+        padding: 10px;
+        color: #FFF;
+        text-decoration: none;
+    }
 
-.wrapper.show-menu .canvas {
-    transform: translateX(300px);
-}
+    /*.show-menu .canvas {*/
+    .wrapper.show-menu .canvas {
+        transform: translateX(300px);
+    }
+/* estilização do menu */
 
 .content{
-    padding: 10%;
+    padding: 5% 10%;
+    background-color: #ddd;
 }
+
+#call-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+}
+
+    .content .btn {
+        background: #FFF;
+        color:#BF0000;
+        border-radius: 5px;
+        padding: 0 9px 0;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 20px 0 20px 0;
+    }
+    .content p{
+        margin: 20px 0 20px 0;
+    }
+    .content span{
+        margin: 20px 0 20px 0;
+    }
