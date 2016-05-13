@@ -1,0 +1,19 @@
+#linone {
+    list-style-type: none;
+}
+
+.menu li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.menu a {
+    color: #38b;
+    text-decoration: none;
+}
+
+.menu i {
+    width: 20px;
+    color: #46b;
+    text-decoration: none;
+}
