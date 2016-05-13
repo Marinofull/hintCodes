@@ -10,45 +10,17 @@
     <h1 class="title">Lorem Ipsum</h1>
     <p>Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 
-    <div class="case-study study1">
-        <figure>
-            <img class="case-study__img" src="../assets/img/info-negativo-horizontal.svg" />
-        </figure>
-        <div class="case-study__overlay">
-            <h2 class="case-study__title">Lorem Ipsum</h2>
-            <a class="case-study__link" href="#">Dolor Sit Amet</a>
-        </div>
-    </div>
+    <div class="case-study study1"></div>
+    <div class="case-study study2"></div>
+    <div class="case-study study1"></div>
+    <div class="case-study study2"></div>
 
-    <div class="case-study study2">
-        <figure>
-            <img class="case-study__img" src="../assets/img/info-negativo-horizontal.svg" />
-        </figure>
-        <div class="case-study__overlay">
-            <h2 class="case-study__title">Lorem Ipsum</h2>
-            <a class="case-study__link" href="#">Dolor Sit Amet</a>
-        </div>
-    </div>
-
-    <div class="case-study study1">
-        <figure>
-            <img class="case-study__img" src="../assets/img/info-negativo-horizontal.svg" />
-        </figure>
-        <div class="case-study__overlay">
-            <h2 class="case-study__title">Lorem Ipsum</h2>
-            <a class="case-study__link" href="#">Dolor Sit Amet</a>
-        </div>
-    </div>
-
-    <div class="case-study study2">
-        <figure>
-            <img class="case-study__img" src="../assets/img/info-negativo-horizontal.svg" />
-        </figure>
-        <div class="case-study__overlay">
-            <h2 class="case-study__title">Lorem Ipsum</h2>
-            <a class="case-study__link" href="#">Dolor Sit Amet</a>
-        </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script>
+        $(function(){
+            $(".case-study").load("../includes/card.inc");
+        });
+    </script>
 </div>
 </body>
 </html>
