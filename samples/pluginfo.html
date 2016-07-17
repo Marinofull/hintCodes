@@ -3,6 +3,17 @@
         <title>Pluginfo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="PlugInfo 2016.1"/>
+        <meta property="og:url" content="http://marinofull.github.io/hintCodes/samples/pluginfo.html"/>
+        <meta property="og:description" content="Está aberto o nosso Processo Seletivo!"/>
+        <meta property="og:image" content="http://marinofull.github.io/hintCodes/assets/img/cap.svg"/>
+        <meta property="og:type" content="article"/>
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="PlugInfo 2016.1"/>
+        <meta name="twitter:url" content="http://marinofull.github.io/hintCodes/samples/pluginfo.html"/>
+        <meta name="twitter:description" content="Está aberto o nosso Processo Seletivo!"/>
+        <meta name="twitter:image:src" content="http://www.bruceclay.com/blog/wp-content/uploads/2014/10/lindsay-mineo-pubcon-300.jpg"/>
         <link href="../assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
         <link type="text/css" rel="stylesheet"  href="../assets/css/pluginfo.min.css"/>
     </head>
@@ -10,7 +21,6 @@
         <section id="banner">
             <div class="text">
                 <img class="pluginfo-logo" src="../assets/img/pluginfo-w.svg" alt="bb-8" title="O BB-8...">
-                <!-- <h1 class="star-wars">Pluginfo 2015.2</h1> -->
                 <h2></h2>
                 <div class="aside-btn-container">
                     <a href="#subscribe"><button id="sign-up" class="aside-btn"><h2>Inscreva-se</h2></button></a>
@@ -127,7 +137,7 @@
             <div class="msg-fixed">
                 <h3>Taxa de inscrição: 1Kg de alimento não perecível, que deve ser entregue no dia da dinâmica.</h3>
             </div>
-            <form action="controllers/subscriber_controller.php" method="POST" enctype="multipart/form-data">
+            <form action="" method="POST" enctype="multipart/form-data">
                 <input id="name" class="field left" title="Insira o seu nome aqui." type="text" name="name" placeholder="Qual o seu nome?" required="required">
                 <input id="email" class="field right" title="Insira o seu e-mail aqui." type="email" name="email" placeholder="Qual o seu e-mail?" value="" required="required">
                 <input id="phone" class="field left" title="Insira o seu telefone aqui." name="phone" placeholder="E o seu telefone?" value="" required="required">
@@ -148,7 +158,6 @@
                     <option value="5">Sou VETERANO, rapaz!</option>
                 </select>
                 <textarea class="field" name="msg" rows="4" placeholder="O que te motiva a fazer parte da InfoJr UFBA?" required="required"></textarea>
-                <div class="g-recaptcha" data-sitekey="6LfB9BQTAAAAAJf0OR3OtnY-19Ki36CdFb1Ti403"></div>
                 <button class="send-btn" name="action" value="subscribes" type="submit"><i class="fa fa-paper-plane"></i> Enviar</button>
             </form>
         </section>
