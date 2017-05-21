@@ -5,15 +5,18 @@ tar xvfvz install_flash_player_*.tar.gz -C ./tmp_dir
 cd tmp_dir
 ```
 
-depending of your configuration try: 
+To install:
 ```
 sudo cp -r usr /
 mkdir -p ~/.mozilla/plugins
 cp libflashplayer.so ~/.mozilla/plugins
 ```
-*...or try it:*
+*...or the last command could be:*
 ```
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins
 ```
-> I prefer the last solution, but it depends how your flash is installed
+
+When updatting just do the last one.
+
+> I prefer the last solution.
 > [thanks](http://xmodulo.com/how-to-install-adobe-flash-player-on-linux.html)
